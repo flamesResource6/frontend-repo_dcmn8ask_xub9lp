@@ -1,5 +1,8 @@
 import Background from './components/Background'
 import Header from './components/Header'
+import Banner from './components/Banner'
+import ParallaxScene from './components/ParallaxScene'
+import Gallery from './components/Gallery'
 import Card from './components/Card'
 
 function App() {
@@ -8,7 +11,10 @@ function App() {
       <Background />
       <Header />
       <main>
+        <Banner />
+        <ParallaxScene />
         <Card />
+        <Gallery />
       </main>
     </div>
   )
